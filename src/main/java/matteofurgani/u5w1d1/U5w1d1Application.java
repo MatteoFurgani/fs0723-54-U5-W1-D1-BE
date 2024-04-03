@@ -20,7 +20,8 @@ public class U5w1d1Application {
 
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(U5w1d1Application.class);
 
-		List<Menu> menuList = ctx.getBean("menuList", List.class);
+
+		/*List<Menu> menuList = ctx.getBean("menuList", List.class);
 
 		System.out.println("Menu:");
 		for (Menu menu : menuList) {
@@ -40,8 +41,8 @@ public class U5w1d1Application {
 						" - Calorie: " + bevanda.getCalorie() +
 						" - Prezzo: " + bevanda.getPrezzo() + "€");
 			}
-		}
+		}*/
 
-		ctx.close();
+
 	}
 }
